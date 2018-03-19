@@ -1,3 +1,6 @@
-Solution to CareerCup questions in python 3
+Solution to CareerCup questions in python 3.
 
-The questions are not written here.. will be uploaded soon with the questions and detailed answer
+The solutions are easy and intuitive to understand.
+The time complexity is good, some of the implementation might be in slightly better time complexity but harder to
+code in real time coding interview.
+
