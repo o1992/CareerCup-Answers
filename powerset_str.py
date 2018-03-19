@@ -9,10 +9,15 @@ def subsets(str_arr):
             yield item
 
 
-str = "rum"
-
-str_arr = list({x for x in str})
-gen = subsets(str_arr)
+str = "rrum"
+dict1 = dict()
+str_arr = list(str)
+new_arr = list()
+for i in str:
+    if i not in dict1:
+        new_arr.append(i)
+        dict1[i]=0
+gen = subsets(new_arr)
 for i in gen:
     if (len(i) == 0): continue
 

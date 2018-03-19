@@ -7,9 +7,7 @@ def num_islands(num):
     size_matrix_y = len(num)
     for idx_y in range (0,size_matrix_y):
         for idx_x  in range (0,size_matrix_x):
-            if(num[idx_y][idx_x] == 0):
-                a=1
-            else:
+            if(num[idx_y][idx_x] == 1):
                 islands_num = islands_num+1
                 clean_island(num,idx_x,idx_y,size_matrix_x,size_matrix_y)
                 print(num)
